@@ -115,6 +115,8 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
   [NV,GCI,weight,sotime]=MNVLLSM(A)
 
+  %% The following is the solving process and results.
+
   % CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
   % Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
   % 
