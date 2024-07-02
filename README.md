@@ -10,4 +10,6 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 
 [yalmip](https://yalmip.github.io/)
 
+[Ipopt](https://github.com/coin-or/Ipopt)
+
 [gurobi 10 or higher](https://www.gurobi.com/)
