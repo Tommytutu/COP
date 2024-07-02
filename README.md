@@ -71,4 +71,6 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   In such cases, we have two options: directly derive the priority vector by the function **MNVLLSM**, goes to Step 2; communicate with the DM and use function **NPRAOC** to provide some
   modification suggestions and get more coherent preferences, goes to Step 3.
 
+* **Step 2**: Derive the priority vector by function **MNVLLSM**
+
   
