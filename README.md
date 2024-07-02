@@ -42,9 +42,10 @@ The output parameter result of this function is as follows：
 
 *NPRAOC* aims to meet  index-exchangeability condition by revising some preferences.
 
-*[a_bar, weight]=NPRAOC(a, CI_bar,b)*, the input and out parameters of this function is as follows：
+*[A_bar, weight]=NPRAOC(A, CI_bar,B)*, the input and out parameters of this function is as follows：
 
-* *CI_bar*: the predetermined consistency index threshold for the Geometric Consistency Index (GCI), *CI_bar=0.31* when $n=3$; *CI_bar=0.35* when $n=4$ and *CI_bar=0.37* when $n>4$.
+* *CI_bar*: the predetermined consistency index threshold for the Geometric Consistency Index (GCI), *CI_bar=0.31* when $n=3$; *CI_bar=0.35* when $n=4$ and *CI_bar=0.37* when $n>4$;
+* **B**: a 
 
 
 
