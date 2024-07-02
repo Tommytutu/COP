@@ -29,6 +29,12 @@ The output parameter result of this function is as follows：
 
 # MNVLLSM
 
-*MNVLLSM* is a two-stage optimization model, where the first stage aims to minimize the numberof violation and the second stage minimizes the deviations  measured by the Logarithmic Least Squares Method (LLSM).
+*MNVLLSM* is a two-stage optimization model to derive the PCM's priority vector, where the first stage aims to minimize the numberof violation and the second stage minimizes the deviations  measured by the Logarithmic Least Squares Method (LLSM).
 
-[NV,GCI,weight,sotime]=MNVLLSM(A)
+*[NV,GCI,weight,sotime]=MNVLLSM(A)*, the output parameter result of this function is as follows：
+
+* *NV*: the total number of violations;
+* *GCI*: the deviations measured bpy the LLSM;
+* *weight*: the priority vector of PCM A with the minimal number of violations;
+* *sotime*: the solving time of this model
+
