@@ -228,6 +228,8 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
   [a_bar, weight]=NPRAOC(A, CI_bar,b)
 
+  %% The following is the solving process and results.
+
   % Optimize a model with 5738 rows, 2697 columns and 23584 nonzeros
   % Model fingerprint: 0x868e0566
   % Model has 1 quadratic constraint
