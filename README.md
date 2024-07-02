@@ -38,3 +38,5 @@ The output parameter result of this function is as follows：
 * *weight*: the priority vector of PCM A with the minimal number of violations;
 * *sotime*: the solving time of this model
 
+# NPRAOC
+
