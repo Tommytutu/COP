@@ -119,7 +119,7 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
   % CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
   % Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
-  % 
+  
   % Optimize a model with 6497 rows, 2600 columns and 24600 nonzeros
   % Model fingerprint: 0x6ee263a4
   % Model has 36 quadratic objective terms
@@ -136,9 +136,9 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   % Presolved: 2566 rows, 1034 columns, 11796 nonzeros
   % Presolved model has 36 quadratic objective terms
   % Variable types: 8 continuous, 1026 integer (1026 binary)
-  % 
+  
   % Root relaxation: objective 3.903616e+00, 2012 iterations, 0.03 seconds (0.03 work units)
-  % 
+  
   %     Nodes    |    Current Node    |     Objective Bounds      |     Work
   %  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
   % 
@@ -162,41 +162,37 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   % H  963   335                    1005.1766118  741.12853  26.3%  37.3    1s
   % H 1214   345                    1005.1114567  769.08480  23.5%  35.0    1s
   % H 1215   345                    1005.0580807  769.08480  23.5%  34.9    1s
-  % 
+   
   % Cutting planes:
   %   Learned: 82
   %   Gomory: 14
   %   Flow cover: 32
   %   RLT: 3
-  % 
+   
   % Explored 4106 nodes (128686 simplex iterations) in 4.59 seconds (3.51 work units)
   % Thread count was 12 (of 12 available processors)
-  % 
+  
   % Solution count 9: 1005.06 1005.11 1025.56 ... 14435.1
-  % 
+   
   % Optimal solution found (tolerance 1.00e-04)
   % Best objective 1.005058080674e+03, best bound 1.005057404310e+03, gap 0.0001%
-  % 
+   
   % NV =
-  % 
+  
   %    24.5000
-  % 
-  % 
+  
+   
   % GCI =
-  % 
+   
   %     0.5581
-  % 
-  % 
+  
+  
   % weight =
   % 
   %     0.1724    0.0576    0.1212    0.0193    0.0409    0.0409    0.1776    0.3699
-  % 
-  % 
+   
+  
   % sotime =
-  % 
+   
   %     4.6278
   
-
-
-
- 
