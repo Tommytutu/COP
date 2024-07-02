@@ -48,7 +48,7 @@ The output parameter result of this function is as follows：
 * ***B***:  $\mathbf{B}=(b_{ij})_{n\times n}$; if  the DM the DM refuses to modify the preference $$a_{ij}$$, then $b_{ij}=1$; otherwise, $b_{ij}=0$;
 * ***A_bar***: the modified PCM that meets both the   index-exchangeability condition
 and the acceptable inconsistency level;
-
+* *weight*: the priority vector of the modified PCM ***A_bar*** that meets the POIP conditions.
 
 
 
