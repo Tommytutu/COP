@@ -113,12 +113,12 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
     QObjective range [2e-01, 7e-01]
     Bounds range     [1e+00, 1e+00]
     RHS range        [1e-02, 4e+01]
- Found heuristic solution: objective 14435.126805
- Presolve removed 3931 rows and 1566 columns
- Presolve time: 0.02s
- Presolved: 2566 rows, 1034 columns, 11796 nonzeros
- Presolved model has 36 quadratic objective terms
- Variable types: 8 continuous, 1026 integer (1026 binary)
+  Found heuristic solution: objective 14435.126805
+  Presolve removed 3931 rows and 1566 columns
+  Presolve time: 0.02s
+  Presolved: 2566 rows, 1034 columns, 11796 nonzeros
+  Presolved model has 36 quadratic objective terms
+  Variable types: 8 continuous, 1026 integer (1026 binary)
 
  Root relaxation: objective 3.903616e+00, 2012 iterations, 0.03 seconds (0.03 work units)
 
