@@ -20,7 +20,7 @@ aims to calculate the number of violations and indentify the pairwise comparison
 
 The output parameter result of this function is as follows：
 
-*NV*: the total number of violations;
+* *NV*: the total number of violations;
 
 * violation_index_equal*: the pairwise comparisons violate $a_{ij} = 1 \Leftrightarrow w_i=w_j$
 
