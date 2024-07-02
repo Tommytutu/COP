@@ -96,16 +96,6 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   violation_index_inequal={};
 
 
-### MATLAB 计算结果
-
-下面是一个MATLAB计算结果的示例:
-
-```matlab
-% 计算并显示5乘以2的结果
-result = 5 * 2;
-disp(['计算结果：' num2str(result)]);
-
-
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
   
 
