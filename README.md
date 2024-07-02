@@ -11,3 +11,9 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 [Ipopt](https://github.com/coin-or/Ipopt)
 
 [gurobi 10 or higher](https://www.gurobi.com/)
+
+
+The main function of the code, called by the user, has the following parameters:
+
+pathdir - path to the directory containing the data file
+filename - the name of the file containing the data
