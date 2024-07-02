@@ -66,3 +66,5 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   \end{array}\right)$$
 
 * **Step 1**: Detect the violations of index-exchangeability condition
+
+  Apply the function *[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A)*, we get $NV=5$.
