@@ -13,6 +13,7 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 [gurobi 10 or higher](https://www.gurobi.com/)
 
 
+# NV_index_exchangeability
 The main function of the code, called by the user, has the following parameters:
 
 pathdir - path to the directory containing the data file
