@@ -70,7 +70,9 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   Apply the function **[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A)**, we get $NV=5$. Thus, $\mathbf{A}$ violates the index-exchangeability condition.
   In such cases, we have two options: directly derive the priority vector by the function **MNVLLSM**, goes to Step 2; communicate with the DM and use function **NPRAOC** to provide some
   modification suggestions and get more coherent preferences, goes to Step 3.
-  ![图片描述]("C:\Users\JC TU\Pictures\gith\NVindex.jpg")"C:\Users\JC TU\Pictures\gith\NVindex.jpg"
+
+ print("Hello,")
+ print("World!")
 
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
   
