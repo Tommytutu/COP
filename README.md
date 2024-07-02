@@ -8,6 +8,6 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 
 [matlab 2018b or higher](https://www.mathworks.com/products/matlab.html)
 
-[yalmip] (https://yalmip.github.io/)
+[yalmip](https://yalmip.github.io/)
 
 [gurobi 10 or higher](https://www.gurobi.com/)
