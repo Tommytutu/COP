@@ -20,6 +20,8 @@ aims to calculate the number of violations and indentify the pairwise comparison
 
 The output parameter result of this function is as follows：
 
+$$NV$$, the total number of violations
+
 | parameter               |                          |
 | --------------------- | ---------------------------- |
 | NV                               | The total number of violations   |
