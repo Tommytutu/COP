@@ -40,3 +40,7 @@ The output parameter result of this function is as follows：
 
 # NPRAOC
 
+*NPRAOC* aims to meet  index-exchangeability condition by revising some preferences.
+
+*[a_bar, weight]=NPRAOC(a, CI_bar,b)*, the input and out parameters of this function is as follows：
+
