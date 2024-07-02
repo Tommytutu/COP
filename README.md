@@ -43,7 +43,7 @@ The output parameter result of this function is as follows：
 *NPRAOC* aims to meet  index-exchangeability condition by revising some preferences.
 
 *[**A_bar**, weight]=NPRAOC(**A**, CI_bar,**B**)*, the input and out parameters of this function is as follows：
-
+* **A**: the PCM provided by the DM, $\mathbf{A}=(a_{ij})_{n\times n}$
 * *CI_bar*: the predetermined consistency index threshold for the Geometric Consistency Index (GCI), *CI_bar=0.31* when $n=3$; *CI_bar=0.35* when $n=4$ and *CI_bar=0.37* when $n>4$;
 * ***B***:  $\mathbf{B}=(b_{ij})_{n\times n}$; if  the DM the DM refuses to modify the preference $$a_{ij}$$, then $b_{ij}=1$; otherwise, $b_{ij}=0$.
 
