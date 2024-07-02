@@ -54,7 +54,7 @@ and the acceptable inconsistency level;
 # Example
 Consider the Example 4 in the paper, $\mathbf{A}$ is a PCM with eight alternatives $\{x_1,x_2,x_3,x_4, x_5,x_6,x_7,x_8\}$ which has been discussed by  Saaty (2003).
 
-\[\mathbf{A} =\left(\begin{array}{ccccccccccc}
+$$\mathbf{A} =\left(\begin{array}{ccccccccccc}
  1     & 5     & 3     & 7     & 6     & 6     &  1/3  &  1/4 \\
      1/5  & 1     &  1/3  & 5     & 3     & 3     &  1/5  &  1/7 \\
      1/3  & 3     & 1     & 6     & 3     & 4     & 6     &  1/5 \\
@@ -63,5 +63,5 @@ Consider the Example 4 in the paper, $\mathbf{A}$ is a PCM with eight alternativ
      1/6  &  1/3  &  1/4  & 4     & 2     & 1     &  1/5  &  1/6 \\
     3     & 5     &  1/6  & 7     & 5     & 5     & 1     &  1/2 \\
     4     & 7     & 5     & 8     & 6     & 6     & 2     & 1     \\
-  \end{array}\right)\]
+  \end{array}\right)$$
 
