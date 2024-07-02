@@ -15,18 +15,13 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 
 # NV_index_exchangeability
 [NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A), where A is the pairwise comparison matrix provided by the decision maker. This function
-aims to calculate the number of violations and indentify the pairwise comparisons violating the index-exchangeability.
+aims to calculate the number of violations and indentify the pairwise comparisons violating the index-exchangeability. 
 
-The main function of the code, called by the user, has the following parameters:
+The output parameter result of this function is as follows：
 
-pathdir - path to the directory containing the data file
-filename - the name of the file containing the data
-
-### 模型参数列表
-
-| 参数名                | 描述                         |
+| parameter               |                          |
 | --------------------- | ---------------------------- |
-| Learning Rate         | 用于控制模型参数更新的速度   |
+| NV         | The total number of violations   |
 | Batch Size            | 每次迭代时用于训练的样本数量 |
 | Number of Layers      | 模型中的隐藏层数量           |
 | Hidden Units          | 每个隐藏层中的神经元数量     |
