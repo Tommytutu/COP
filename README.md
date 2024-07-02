@@ -22,7 +22,7 @@ The output parameter result of this function is as follows：
 
 * *NV*: the total number of violations;
 
-* violation_index_equal*: the pairwise comparisons violate $a_{ij} = 1 \Leftrightarrow w_i=w_j$
+* *violation_index_equal*: the pairwise comparisons violate $a_{ij} = 1 \Leftrightarrow w_i=w_j$
 
 | parameter               |                          |
 | --------------------- | ---------------------------- |
