@@ -14,6 +14,9 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 
 
 # NV_index_exchangeability
+[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A), where A is the pairwise comparison matrix provided by the decision maker. This function
+aims to calculate the number of violations and indentify the pairwise comparisons violating the index-exchangeability.
+
 The main function of the code, called by the user, has the following parameters:
 
 pathdir - path to the directory containing the data file
