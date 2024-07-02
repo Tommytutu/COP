@@ -53,5 +53,5 @@ and the acceptable inconsistency level;
 
 # Example
 
-
+Let $\mathbf{A}$ be a PCM with eight alternatives $\{x_1,x_2,x_3,x_4, x_5,x_6,x_7,x_8\}$ which has been discussed by  Saaty \cite{saaty2003}
 
