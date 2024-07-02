@@ -85,6 +85,9 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
   [NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A);
 
+
+
+
   ```matlab
   % Results
   NV=5;
