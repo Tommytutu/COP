@@ -71,19 +71,19 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   In such cases, we have two options: directly derive the priority vector by the function **MNVLLSM**, goes to Step 2; communicate with the DM and use function **NPRAOC** to provide some
   modification suggestions and get more coherent preferences, goes to Step 3.
 
-### MATLAB 示例
-
-这里是一个MATLAB代码块的示例:
-
 ```matlab
-% 定义一个函数来计算两个数字的和
-function result = add_numbers(a, b)
-    result = a + b;
-end
+clear;
+clc;
+A=[1    	5    	3    	7    	6    	4    	 1/3	 1/4
+ 1/5	1    	 1/3	4    	3    	 1/2	 1/6	 1/7
+ 1/3	3    	1    	6    	5    	3    	 1/4	 1/5
+ 1/7	 1/4	 1/6	1    	 1/2	 1/4	 1/8	 1/9
+ 1/6	 1/3	 1/5	2    	1    	 1/3	 1/7	 1/8
+ 1/4	2    	 1/3	4    	3    	1    	 1/5	 1/6
+3    	6    	4    	8    	7    	5    	1    	 1/2
+4    	7    	5    	9    	8    	6    	2    	1    ];
 
-% 调用函数并显示结果
-sum = add_numbers(3, 4);
-disp(sum);
+[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A);
 
 
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
