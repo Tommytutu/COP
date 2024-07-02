@@ -67,4 +67,4 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
 * **Step 1**: Detect the violations of index-exchangeability condition
 
-  Apply the function *[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A)*, we get $NV=5$.
+  Apply the function *[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A)*, we get $NV=5$. Thus, $\mathbf{A}$ violates the index-exchangeability condition.
