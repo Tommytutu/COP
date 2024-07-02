@@ -84,17 +84,27 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   4    	7    	5    	9    	8    	6    	2    	1    ];
 
   [NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A);
-
-
   
   %%The results are as follows:
   NV=5;
-
   violation_index_equal=([2,3,1,8],	[2,6,1,7],	[3,3,2,6],	[3,5,1,6],	[4,4,2,6],	[4,5,1,7],	[4,6,3,8],	[5,5,2,6],	[5,6,1,8],	[5,6,3,7]);
   violation_index_inequal={};
-
-
+  
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
+  ```matlab
+  clear;
+  clc;
+  A=[1    	5    	3    	7    	6    	4    	 1/3	 1/4
+     1/5	1    	 1/3	4    	3    	 1/2	 1/6	 1/7
+     1/3	3    	1    	6    	5    	3    	 1/4	 1/5
+     1/7	 1/4	 1/6	1    	 1/2	 1/4	 1/8	 1/9
+     1/6	 1/3	 1/5	2    	1    	 1/3	 1/7	 1/8
+     1/4	2    	 1/3	4    	3    	1    	 1/5	 1/6
+     3    	6    	4    	8    	7    	5    	1    	 1/2
+     4    	7    	5    	9    	8    	6    	2    	1    ];
+  [NV,GCI,weight,sotime]=MNVLLSM(A)
+
+
   
 
   
