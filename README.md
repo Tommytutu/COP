@@ -22,12 +22,6 @@ The output parameter result of this function is as follows：
 
 | parameter               |                          |
 | --------------------- | ---------------------------- |
-| NV         | The total number of violations   |
-| Batch Size            | 每次迭代时用于训练的样本数量 |
-| Number of Layers      | 模型中的隐藏层数量           |
-| Hidden Units          | 每个隐藏层中的神经元数量     |
-| Activation Function   | 用于引入非线性变换的函数     |
-| Dropout Rate          | 在训练过程中随机丢弃部分神经元以防止过拟合 |
-| Regularization Parameter | 用于控制模型复杂度的正`
-
- $$E=mc^2$$
+| NV                               | The total number of violations   |
+| violation_index_equal            | The pairwise comparisons violate $$ a_{ij} = 1 \Leftrightarrow w_i=w_j$$ |
+| violation_index_inequal          | 模型中的隐藏层数量           |
