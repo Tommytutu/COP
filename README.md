@@ -221,36 +221,34 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
         CI_bar=0.37
   end
 
-  %%determine the elements that the DM refuses to  revise
-  %if b(i,j)=1,then the elements a(i,j)should no be revised
-  %For example, if the DM refuses to revise the element a(3,7), then we can
-  %set b(3,7)=1
+  %determine the elements that the DM refuses to  revise if b(i,j)=1,then the elements a(i,j)should no be revised. For example, if the DM refuses to revise the element a(3,7), then we can set b(3,7)=1
+  
   b=zeros(n,n)
   b(3,7)=1 
 
-[a_bar, weight]=NPRAOC(A, CI_bar,b)
+  [a_bar, weight]=NPRAOC(A, CI_bar,b)
 
-% Optimize a model with 5738 rows, 2697 columns and 23584 nonzeros
-% Model fingerprint: 0x868e0566
-% Model has 1 quadratic constraint
-% Variable types: 165 continuous, 2532 integer (2532 binary)
-% Coefficient statistics:
-%   Matrix range     [1e-06, 1e+04]
-%   QMatrix range    [1e+00, 1e+00]
-%   Objective range  [2e-02, 1e+02]
-%   Bounds range     [1e+00, 1e+00]
-%   RHS range        [6e-01, 1e+04]
-% Presolve removed 2344 rows and 942 columns
-% Presolve time: 0.19s
-% Presolved: 3395 rows, 1818 columns, 15888 nonzeros
-% Presolved model has 63 quadratic constraint(s)
-% Variable types: 187 continuous, 1631 integer (1631 binary)
-% 
-% Root relaxation: objective 1.043332e+02, 937 iterations, 0.03 seconds (0.05 work units)
-% 
-%     Nodes    |    Current Node    |     Objective Bounds      |     Work
-%  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
-% 
+  % Optimize a model with 5738 rows, 2697 columns and 23584 nonzeros
+  % Model fingerprint: 0x868e0566
+  % Model has 1 quadratic constraint
+  % Variable types: 165 continuous, 2532 integer (2532 binary)
+  % Coefficient statistics:
+  %   Matrix range     [1e-06, 1e+04]
+  %   QMatrix range    [1e+00, 1e+00]
+  %   Objective range  [2e-02, 1e+02]
+  %   Bounds range     [1e+00, 1e+00]
+  %   RHS range        [6e-01, 1e+04]
+  % Presolve removed 2344 rows and 942 columns
+  % Presolve time: 0.19s
+  % Presolved: 3395 rows, 1818 columns, 15888 nonzeros
+  % Presolved model has 63 quadratic constraint(s)
+  % Variable types: 187 continuous, 1631 integer (1631 binary)
+ 
+  % Root relaxation: objective 1.043332e+02, 937 iterations, 0.03 seconds (0.05 work units)
+  % 
+  %     Nodes    |    Current Node    |     Objective Bounds      |     Work
+  %  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+  % 
 %      0     0  104.33320    0  191          -  104.33320      -     -    0s
 %      0     0  204.33096    0  202          -  204.33096      -     -    0s
 %      0     0  204.33096    0  203          -  204.33096      -     -    0s
