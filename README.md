@@ -87,7 +87,7 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
 
   
-  The results are as follows:
+  %%The results are as follows:
   NV=5;
 
   violation_index_equal=([2,3,1,8],	[2,6,1,7],	[3,3,2,6],	[3,5,1,6],	[4,4,2,6],	[4,5,1,7],	[4,6,3,8],	[5,5,2,6],	[5,6,1,8],	[5,6,3,7]);
