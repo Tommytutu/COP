@@ -14,8 +14,8 @@ Before attempting to apply the MNVLLSM and NPRAOC, make sure your system has the
 
 
 # NV_index_exchangeability
-<span style="text-shadow: 2px 2px 2px grey;">[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A)</span>
-[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A), where A is the pairwise comparison matrix provided by the decision maker. This function
+
+$$[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A)$$, where A is the pairwise comparison matrix provided by the decision maker. This function
 aims to calculate the number of violations and indentify the pairwise comparisons violating the index-exchangeability. 
 
 The output parameter result of this function is as follows：
