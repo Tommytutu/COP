@@ -87,7 +87,7 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
 
   
-The results are as follows:
+  The results are as follows:
   ```matlab
   % Results
   NV=5;
