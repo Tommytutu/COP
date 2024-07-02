@@ -71,8 +71,20 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   In such cases, we have two options: directly derive the priority vector by the function **MNVLLSM**, goes to Step 2; communicate with the DM and use function **NPRAOC** to provide some
   modification suggestions and get more coherent preferences, goes to Step 3.
 
- print("Hello,")
- print("World!")
+### MATLAB 示例
+
+这里是一个MATLAB代码块的示例:
+
+```matlab
+% 定义一个函数来计算两个数字的和
+function result = add_numbers(a, b)
+    result = a + b;
+end
+
+% 调用函数并显示结果
+sum = add_numbers(3, 4);
+disp(sum);
+
 
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
   
