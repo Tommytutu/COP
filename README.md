@@ -45,7 +45,7 @@ The output parameter result of this function is as follows：
 *[**A_bar**, weight]=NPRAOC(**A**, CI_bar,**B**)*, the input and out parameters of this function is as follows：
 
 * *CI_bar*: the predetermined consistency index threshold for the Geometric Consistency Index (GCI), *CI_bar=0.31* when $n=3$; *CI_bar=0.35* when $n=4$ and *CI_bar=0.37* when $n>4$;
-* ***B***:  $\mathbf{B}=(b_{ij})_{n\times n}$,
+* ***B***:  $$\mathbf{B}=(b_{ij})_{n\times n}$$,
   if $b_{ij}=1$, then the DM refuses to modify the preference $a_{ij}$.
 
 
