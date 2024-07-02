@@ -51,7 +51,7 @@ and the acceptable inconsistency level;
 * *weight*: the priority vector of the modified PCM ***A_bar*** that meets the POIP conditions.
 
 
-
+# Example
 
 
 
