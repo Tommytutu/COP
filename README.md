@@ -29,3 +29,8 @@ The output parameter result of this function is as follows：
 | Dropout Rate          | 在训练过程中随机丢弃部分神经元以防止过拟合 |
 | Regularization Parameter | 用于控制模型复杂度的正`
 
+
+<div style="box-shadow: 5px 5px 5px grey; padding: 20px;">
+  <h3>函数名称</h3>
+  <p>这里是函数的描述和使用方法。</p>
+</div>
