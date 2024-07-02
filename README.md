@@ -25,3 +25,5 @@ The output parameter result of this function is as follows：
 | NV                               | The total number of violations   |
 | violation_index_equal            | The pairwise comparisons violate $$ a_{ij} = 1 \Leftrightarrow w_i=w_j$$ |
 | violation_index_inequal          | 模型中的隐藏层数量           |
+
+$$ a_{ij} = 1 \Leftrightarrow w_i=w_j$$
