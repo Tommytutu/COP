@@ -104,15 +104,15 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
 
   results
   Optimize a model with 6497 rows, 2600 columns and 24600 nonzeros
-Model fingerprint: 0x6ee263a4
-Model has 36 quadratic objective terms
-Variable types: 8 continuous, 2592 integer (2592 binary)
-Coefficient statistics:
-  Matrix range     [1e+00, 4e+01]
-  Objective range  [2e-01, 4e+01]
-  QObjective range [2e-01, 7e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e-02, 4e+01]
+  Model fingerprint: 0x6ee263a4
+  Model has 36 quadratic objective terms
+  Variable types: 8 continuous, 2592 integer (2592 binary)
+  Coefficient statistics:
+    Matrix range     [1e+00, 4e+01]
+    Objective range  [2e-01, 4e+01]
+    QObjective range [2e-01, 7e-01]
+    Bounds range     [1e+00, 1e+00]
+    RHS range        [1e-02, 4e+01]
 Found heuristic solution: objective 14435.126805
 Presolve removed 3931 rows and 1566 columns
 Presolve time: 0.02s
