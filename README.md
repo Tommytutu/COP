@@ -25,3 +25,10 @@ The output parameter result of this function is as follows：
 * *violation_index_equal*: the pairwise comparisons violate $a_{ij}= a_{kl}  \Leftrightarrow a_{ik}= a_{jl}$
 
 * *violation_index_inequal*: the pairwise comparisons violate $a_{ij}> a_{kl}  \Leftrightarrow a_{ik}> a_{jl}$
+
+
+# MNVLLSM
+
+*MNVLLSM* is a two-stage optimization model, where the first stage aims to minimize the numberof violation and the second stage minimizes the deviations  measured by the Logarithmic Least Squares Method (LLSM).
+
+[NV,GCI,weight,sotime]=MNVLLSM(A)
