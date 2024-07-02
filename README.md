@@ -86,6 +86,14 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   [NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A);
 
 
+### MATLAB 计算结果
+
+下面是一个MATLAB计算结果的示例:
+
+```matlab
+% 计算并显示5乘以2的结果
+result = 5 * 2;
+disp(['计算结果：' num2str(result)]);
 
 
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
