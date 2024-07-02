@@ -71,19 +71,21 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
   In such cases, we have two options: directly derive the priority vector by the function **MNVLLSM**, goes to Step 2; communicate with the DM and use function **NPRAOC** to provide some
   modification suggestions and get more coherent preferences, goes to Step 3.
 
-```matlab
-clear;
-clc;
-A=[1    	5    	3    	7    	6    	4    	 1/3	 1/4
- 1/5	1    	 1/3	4    	3    	 1/2	 1/6	 1/7
- 1/3	3    	1    	6    	5    	3    	 1/4	 1/5
- 1/7	 1/4	 1/6	1    	 1/2	 1/4	 1/8	 1/9
- 1/6	 1/3	 1/5	2    	1    	 1/3	 1/7	 1/8
- 1/4	2    	 1/3	4    	3    	1    	 1/5	 1/6
-3    	6    	4    	8    	7    	5    	1    	 1/2
-4    	7    	5    	9    	8    	6    	2    	1    ];
+  ```matlab
+  clear;
+  clc;
+  A=[1    	5    	3    	7    	6    	4    	 1/3	 1/4
+  1/5	1    	 1/3	4    	3    	 1/2	 1/6	 1/7
+  1/3	3    	1    	6    	5    	3    	 1/4	 1/5
+  1/7	 1/4	 1/6	1    	 1/2	 1/4	 1/8	 1/9
+  1/6	 1/3	 1/5	2    	1    	 1/3	 1/7	 1/8
+  1/4	2    	 1/3	4    	3    	1    	 1/5	 1/6
+  3    	6    	4    	8    	7    	5    	1    	 1/2
+  4    	7    	5    	9    	8    	6    	2    	1    ];
 
-[NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A);
+  [NV,violation_index_equal, violation_index_inequal]=NV_index_exchangeability(A);
+
+
 
 
 * **Step 2**: Derive the priority vector by function **MNVLLSM**
