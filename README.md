@@ -65,3 +65,4 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
     4     & 7     & 5     & 8     & 6     & 6     & 2     & 1     \\
   \end{array}\right)$$
 
+* **Step 1**: Detect the violations of index-exchangeability condition
