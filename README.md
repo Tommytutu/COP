@@ -31,4 +31,3 @@ filename - the name of the file containing the data
 | Dropout Rate          | 在训练过程中随机丢弃部分神经元以防止过拟合 |
 | Regularization Parameter | 用于控制模型复杂度的正`
 
-你可以将以上 Markdown 代码添加到你的 GitHub 仓库中，以显示模型参数列表，并向读者传达清晰的模型参数信息。
