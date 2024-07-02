@@ -102,18 +102,7 @@ $$\mathbf{A} =\left(\begin{array}{ccccccccccc}
    4    	7    	5    	8    	6    	6    	2    	1    ];
   [NV,GCI,weight,sotime]=MNVLLSM(A)
 
-  clear;
-  clc;
-  A=[1    	5    	3    	7    	6    	6    	 1/3	 1/4
-   1/5	1    	 1/3	5    	3    	3    	 1/5	 1/7
-   1/3	3    	1    	6    	3    	4    	6    	 1/5
-   1/7	 1/5	 1/6	1    	 1/3	 1/4	 1/7	 1/8
-   1/6	 1/3	 1/3	3    	1    	 1/2	 1/5	 1/6
-   1/6	 1/3	 1/4	4    	2    	1    	 1/5	 1/6
-   3    	5    	 1/6	7    	5    	5    	1    	 1/2
-   4    	7    	5    	8    	6    	6    	2    	1    ];
-
-  [NV,GCI,weight,sotime]=MNVLLSM(A)
+ 
 
   %% The following is the solving process and results.
 
