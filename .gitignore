@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Gurobi logs and generated experimental output
+*.log
+python_gurobi_experiments/results*/
+python_gurobi_experiments/gurobi_logs*/
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

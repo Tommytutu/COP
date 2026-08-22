@@ -1,0 +1,22 @@
+{
+  "master_seed": 20260815,
+  "n_values": [3, 4, 5, 6, 7, 8, 9],
+  "regimes": ["low", "moderate", "high", "cyclic"],
+  "samples_per_cell": 20,
+  "evrim_samples_per_cell": 3,
+  "bnc_samples_per_n": 2,
+  "formulation_samples_per_cell": 2,
+  "sensitivity_n_values": [4, 6, 8],
+  "sensitivity_epsilons": [0.01, 0.001, 0.0001],
+  "sanity_samples_per_n": 20,
+  "epsilon": 0.0001,
+  "y_bound": 10.0,
+  "priority_time_limit_seconds": 60,
+  "formulation_time_limit_seconds": 60,
+  "evrim_time_limit_seconds": 60,
+  "mip_gap": 0.000001,
+  "threads": 12,
+  "gurobi_seed": 20260815,
+  "output_flag": 0,
+  "results_dir": "results_model_aligned_20260819"
+}

@@ -1,0 +1,39 @@
+{
+  "master_seed": 20260815,
+  "alpha_values": {
+    "start": 1.0,
+    "stop": 0.0,
+    "step": 0.01,
+    "include_endpoints": true
+  },
+  "n_values": [3, 4, 5, 6, 7, 8, 9],
+  "regimes": ["low", "moderate", "high", "cyclic"],
+  "samples_per_cell": 20,
+  "pilot_instances": [
+    "cyclic_n7_r000",
+    "cyclic_n8_r000",
+    "cyclic_n9_r000"
+  ],
+  "epsilon": 0.0001,
+  "gci_normalizer": 1.0,
+  "y_bound": 10.0,
+  "time_limit_seconds": 60,
+  "mip_gap": 0.00001,
+  "mip_gap_abs": 0.00001,
+  "feasibility_tol": 0.00001,
+  "optimality_tol": 0.00001,
+  "integer_feasibility_tol": 0.00001,
+  "barrier_convergence_tol": 0.00001,
+  "barrier_qcp_convergence_tol": 0.00001,
+  "gci_tolerance": 0.00001,
+    "numeric_focus": 3,
+    "integrality_focus": 1,
+    "scale_flag": 2,
+  "threads": 12,
+  "gurobi_seed": 20260815,
+  "output_flag": 0,
+  "save_solver_logs": false,
+  "solver_log_staging_dir": "solver_logs_weighted_pareto_all_n_20260821",
+  "results_dir": "results_weighted_pareto_all_n_20260821",
+  "source_dataset": "results_model_aligned_20260819/raw/datasets.csv"
+}
