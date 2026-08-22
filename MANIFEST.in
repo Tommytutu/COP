@@ -1,0 +1,9 @@
+include README.md
+include README_CN.md
+include EXPERIMENTS.md
+include PUBLISHING.md
+include requirements.txt
+include config_model_aligned_20260819.json
+include config_weighted_pareto_20260819.json
+recursive-include examples *.py *.md *.csv
+recursive-include experiments *.py

@@ -1,24 +1,26 @@
 # COP: order-preserving pairwise preference models
 
-This repository contains the current Python/Gurobi implementation of MNVDM,
-weighted MNVDM, and EVRIM, together with the experiment drivers and executable
-single-matrix examples used for the Omega submission.
-
-The original MATLAB/YALMIP files remain in the repository for archival use.
-Their original documentation is available in
-[`MATLAB_LEGACY_README.md`](MATLAB_LEGACY_README.md). New applications should
-use the Python package in [`python_gurobi_experiments/`](python_gurobi_experiments/).
+This repository contains the Python/Gurobi implementation of MNVDM, weighted
+MNVDM, and EVRIM, together with experiment drivers and executable single-matrix
+examples. The superseded MATLAB/YALMIP version has been removed.
 
 ## Requirements
 
 - Python 3.11 or later
-- Gurobi Optimizer 12.0.0
+- Gurobi Optimizer 12.x
 - a valid Gurobi license
 
-Install and test the project:
+After the first PyPI release, install the package with:
 
 ```powershell
-cd python_gurobi_experiments
+python -m pip install cop-gurobi-experiments
+```
+
+Alternatively, install the current GitHub source and run its tests:
+
+```powershell
+git clone https://github.com/Tommytutu/COP.git
+cd COP
 python -m pip install -e .
 python -m pytest -q
 ```
@@ -60,7 +62,7 @@ print("runtime:", result.runtime)
 ```
 
 The complete executable version is
-[`examples/example_01_mnvdm_matrix.py`](python_gurobi_experiments/examples/example_01_mnvdm_matrix.py).
+[`examples/example_01_mnvdm_matrix.py`](https://github.com/Tommytutu/COP/blob/main/examples/example_01_mnvdm_matrix.py).
 Its process is:
 
 1. validate positivity, reciprocity, and the unit diagonal;
@@ -85,7 +87,6 @@ Runtime depends on the processor, Gurobi version, license, and thread setting.
 Run it with:
 
 ```powershell
-cd python_gurobi_experiments
 python examples/example_01_mnvdm_matrix.py
 ```
 
@@ -110,21 +111,20 @@ judgment (`NRP = 1`), returns `AOC = 2.48490665`, `GCI = 0.21920261`, and
 produces a revised PCM with `NV = 0`. The script prints the complete revised
 matrix and its derived priority vector.
 
-See [`examples/README.md`](python_gurobi_experiments/examples/README.md) for the
+See [`examples/README.md`](https://github.com/Tommytutu/COP/blob/main/examples/README.md) for the
 step-by-step purpose of every example and
-[`README_CN.md`](python_gurobi_experiments/README_CN.md) for Chinese instructions
+[`README_CN.md`](https://github.com/Tommytutu/COP/blob/main/README_CN.md) for Chinese instructions
 and the experiment-to-file mapping.
 
 ## Project structure
 
 ```text
-python_gurobi_experiments/
-  src/cop_experiments/   Public API and optimization models
-  examples/              Single-matrix executable examples
-  experiments/           One entry point for each manuscript experiment
-  tests/                 Unit and solver integration tests
-  run_all.py             Batch experiment dispatcher
-  config_*.json          Reproducible solver configurations
+src/cop_experiments/   Installable public API and optimization models
+examples/              Single-matrix executable examples
+experiments/           One entry point for each manuscript experiment
+tests/                 Unit and solver integration tests
+run_all.py             Batch experiment dispatcher
+config_*.json          Reproducible solver configurations
 ```
 
 Generated Gurobi logs and large result directories are intentionally excluded
@@ -140,3 +140,6 @@ completed runs.
 - `repair_with_evrim`: revise a PCM with optional value or direction protection.
 
 All protected judgment indices passed through Python are zero-based.
+
+Release maintainers can follow the trusted-publishing instructions in
+[`PUBLISHING.md`](https://github.com/Tommytutu/COP/blob/main/PUBLISHING.md).

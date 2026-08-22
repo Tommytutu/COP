@@ -2,13 +2,17 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
-.venv/
+.venv*/
 venv/
 
 # Gurobi logs and generated experimental output
 *.log
-python_gurobi_experiments/results*/
-python_gurobi_experiments/gurobi_logs*/
+results*/
+gurobi_logs*/
+
+# Python distribution artifacts
+build/
+dist/
 
 # Local editor and operating-system files
 .idea/

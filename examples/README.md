@@ -1,7 +1,7 @@
 # Single-matrix examples
 
-Run these scripts from the `python_gurobi_experiments` directory after installing
-the package and activating a valid Gurobi license.
+Run these scripts from the repository root after installing the package and
+activating a valid Gurobi license.
 
 | Example | Purpose | Command |
 |---|---|---|

@@ -29,16 +29,21 @@ PCM --> EVRIM Stage 1: 最小化 NRP
 
 ## 2. 安装
 
-需要 Python 3.11 以上、Gurobi 12 和有效的 Gurobi license。在项目目录打开
-PowerShell：
+需要 Python 3.11 以上、Gurobi 12 和有效的 Gurobi license。正式发布后可以
+直接从 PyPI 安装：
 
 ```powershell
-cd "D:\论文高\COP\submit\Omega_Final_Submission_20260821\python_gurobi_experiments"
-D:\anaconda3\python.exe -m pip install -e .
-D:\anaconda3\python.exe -m pytest -q
+python -m pip install cop-gurobi-experiments
 ```
 
-如果 Python 不在 `D:\anaconda3`，将命令中的解释器替换为自己的 Python。
+从 GitHub 源码安装和测试：
+
+```powershell
+git clone https://github.com/Tommytutu/COP.git
+cd COP
+python -m pip install -e .
+python -m pytest -q
+```
 
 ## 3. 每个论文实验的独立文件
 
