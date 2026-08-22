@@ -1,4 +1,4 @@
-# COP: order-preserving pairwise preference models
+# AHPCOP: order-preserving pairwise preference models
 
 This repository contains the Python/Gurobi implementation of MNVDM, weighted
 MNVDM, and EVRIM, together with experiment drivers and executable single-matrix
@@ -13,7 +13,7 @@ examples. The superseded MATLAB/YALMIP version has been removed.
 After the first PyPI release, install the package with:
 
 ```powershell
-python -m pip install cop-gurobi-experiments
+python -m pip install AHPCOP
 ```
 
 Alternatively, install the current GitHub source and run its tests:
@@ -35,7 +35,7 @@ The matrix below is Example 3 in the current manuscript:
 ```python
 import numpy as np
 
-from cop_experiments import GurobiSettings, solve_mnvdm
+from ahpcop import GurobiSettings, solve_mnvdm
 
 A = np.array([
     [1,     2,     4,     9],
@@ -119,7 +119,7 @@ and the experiment-to-file mapping.
 ## Project structure
 
 ```text
-src/cop_experiments/   Installable public API and optimization models
+src/ahpcop/   Installable public API and optimization models
 examples/              Single-matrix executable examples
 experiments/           One entry point for each manuscript experiment
 tests/                 Unit and solver integration tests

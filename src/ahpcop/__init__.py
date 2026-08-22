@@ -1,4 +1,4 @@
-"""Reproducible Python/Gurobi experiments for the COP manuscript."""
+"""AHPCOP: order-preserving pairwise preference models with Gurobi."""
 
 __version__ = "1.0.0"
 """Order-preserving pairwise preference models and experiment utilities."""

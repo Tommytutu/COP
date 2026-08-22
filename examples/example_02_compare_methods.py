@@ -3,7 +3,7 @@
 import numpy as np
 
 from _setup import default_settings, print_input_summary, print_priority_result
-from cop_experiments import solve_priority_methods
+from ahpcop import solve_priority_methods
 
 
 A = np.array([

@@ -12,13 +12,13 @@ SRC = PROJECT_ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from cop_experiments.metrics import normalized_violation_rate, violation_score  # noqa: E402
-from cop_experiments.pcm import consistency_ratio, geometric_consistency_index  # noqa: E402
-from cop_experiments.priority import PriorityResult  # noqa: E402
+from ahpcop.metrics import normalized_violation_rate, violation_score  # noqa: E402
+from ahpcop.pcm import consistency_ratio, geometric_consistency_index  # noqa: E402
+from ahpcop.priority import PriorityResult  # noqa: E402
 
 
 def default_settings():
-    from cop_experiments import GurobiSettings
+    from ahpcop import GurobiSettings
 
     return GurobiSettings(
         epsilon=1e-4,

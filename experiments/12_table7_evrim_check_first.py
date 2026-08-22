@@ -14,15 +14,15 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from cop_experiments.evrim import (  # noqa: E402
+from ahpcop.evrim import (  # noqa: E402
     default_protected_sets,
     solve_evrim_check_first,
 )
-from cop_experiments.pcm import (  # noqa: E402
+from ahpcop.pcm import (  # noqa: E402
     consistency_ratio,
     load_record_matrix,
 )
-from cop_experiments.priority import GurobiSettings  # noqa: E402
+from ahpcop.priority import GurobiSettings  # noqa: E402
 
 
 RESULTS_DIR = ROOT / "results_table7_check_first_20260821"

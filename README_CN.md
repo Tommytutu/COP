@@ -1,7 +1,7 @@
-# COP Python/Gurobi 实验项目
+# AHPCOP Python/Gurobi 实验项目
 
 本项目对应最终模型对齐版论文 `Omega_Submission_Model_Aligned_Final` 中的计算实验。
-数学模型集中在 `src/cop_experiments`，论文中的每项实验分别放在
+数学模型集中在 `src/ahpcop`，论文中的每项实验分别放在
 `experiments` 下的独立 Python 文件中；`examples` 用于处理读者自己的单个
 PCM，不会启动整批 Monte Carlo 实验。
 
@@ -33,7 +33,7 @@ PCM --> EVRIM Stage 1: 最小化 NRP
 直接从 PyPI 安装：
 
 ```powershell
-python -m pip install cop-gurobi-experiments
+python -m pip install AHPCOP
 ```
 
 从 GitHub 源码安装和测试：
@@ -158,7 +158,7 @@ D:\anaconda3\python.exe examples\example_03_evrim_repair.py
 核心单矩阵 API 为：
 
 ```python
-from cop_experiments import GurobiSettings, solve_mnvdm
+from ahpcop import GurobiSettings, solve_mnvdm
 
 settings = GurobiSettings(time_limit=60, threads=1)
 result = solve_mnvdm(A, method="LLSM", settings=settings)

@@ -7,11 +7,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from cop_experiments.pipeline import ExperimentPipeline  # noqa: E402
+from ahpcop.pipeline import ExperimentPipeline  # noqa: E402
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run the COP Python/Gurobi experiments")
+    parser = argparse.ArgumentParser(description="Run the AHPCOP Python/Gurobi experiments")
     parser.add_argument(
         "command",
         choices=["generate", "sanity", "priority", "formulation", "sensitivity", "evrim", "bnc", "house", "summarize", "all", "smoke"],

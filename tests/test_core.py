@@ -2,11 +2,11 @@ from __future__ import annotations
 
 import numpy as np
 
-from cop_experiments import solve_mnvdm, validate_pcm
-from cop_experiments.evrim import solve_evrim, solve_evrim_check_first
-from cop_experiments.metrics import recovery_metrics, violation_score
-from cop_experiments.pcm import contains_directed_cycle, generate_pcm, llsm_weights
-from cop_experiments.priority import (
+from ahpcop import solve_mnvdm, validate_pcm
+from ahpcop.evrim import solve_evrim, solve_evrim_check_first
+from ahpcop.metrics import recovery_metrics, violation_score
+from ahpcop.pcm import contains_directed_cycle, generate_pcm, llsm_weights
+from ahpcop.priority import (
     GurobiSettings,
     Stage1Result,
     alpha_grid,
@@ -15,7 +15,7 @@ from cop_experiments.priority import (
     solve_mnvllsm,
     solve_stage1,
 )
-from cop_experiments.sensitivity import _ordered_weak_orders
+from ahpcop.sensitivity import _ordered_weak_orders
 
 
 SETTINGS = GurobiSettings(time_limit=30, threads=1, output_flag=0)

@@ -12,16 +12,16 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from cop_experiments.evrim import HOUSE_PCM, solve_evrim_check_first  # noqa: E402
-from cop_experiments.metrics import violation_score  # noqa: E402
-from cop_experiments.pcm import (  # noqa: E402
+from ahpcop.evrim import HOUSE_PCM, solve_evrim_check_first  # noqa: E402
+from ahpcop.metrics import violation_score  # noqa: E402
+from ahpcop.pcm import (  # noqa: E402
     LOG_SCALE,
     consistency_ratio,
     geometric_consistency_index,
     llsm_weights,
     upper_pairs,
 )
-from cop_experiments.priority import GurobiSettings  # noqa: E402
+from ahpcop.priority import GurobiSettings  # noqa: E402
 
 
 def settings_from_config(config: dict) -> GurobiSettings:

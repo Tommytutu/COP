@@ -3,7 +3,7 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cop-gurobi-experiments"
+name = "AHPCOP"
 version = "1.0.0"
 description = "Order-preserving pairwise preference models implemented with Python and Gurobi"
 readme = {file = "README.md", content-type = "text/markdown"}

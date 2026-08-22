@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/cop-gurobi-experiments
+      url: https://pypi.org/project/AHPCOP/
     permissions:
       id-token: write
     steps:

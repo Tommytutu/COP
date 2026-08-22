@@ -20,13 +20,13 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from cop_experiments.metrics import recovery_metrics  # noqa: E402
-from cop_experiments.pcm import (  # noqa: E402
+from ahpcop.metrics import recovery_metrics  # noqa: E402
+from ahpcop.pcm import (  # noqa: E402
     llsm_weights,
     load_record_matrix,
     load_record_weights,
 )
-from cop_experiments.priority import (  # noqa: E402
+from ahpcop.priority import (  # noqa: E402
     GurobiSettings,
     alpha_grid,
     solve_alpha_mnvdm,

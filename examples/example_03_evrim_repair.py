@@ -3,7 +3,7 @@
 import numpy as np
 
 from _setup import default_settings, print_input_summary, ranking
-from cop_experiments import repair_with_evrim
+from ahpcop import repair_with_evrim
 
 
 # x1 > x2, x2 > x3, and x3 > x1 is an explicit preference cycle.

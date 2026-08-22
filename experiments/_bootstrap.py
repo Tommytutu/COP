@@ -11,7 +11,7 @@ SRC = PROJECT_ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from cop_experiments.pipeline import ExperimentPipeline  # noqa: E402
+from ahpcop.pipeline import ExperimentPipeline  # noqa: E402
 
 
 def parser(description: str) -> argparse.ArgumentParser:

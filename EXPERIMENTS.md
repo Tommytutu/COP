@@ -1,4 +1,4 @@
-# COP Python/Gurobi experiment project
+# AHPCOP Python/Gurobi experiment project
 
 This project reproduces the revised experiments for the manuscript. It is a new
 Python implementation informed by the public MATLAB/YALMIP code, but it replaces

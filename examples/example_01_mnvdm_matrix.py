@@ -3,7 +3,7 @@
 import numpy as np
 
 from _setup import default_settings, print_input_summary, print_priority_result
-from cop_experiments import solve_mnvdm
+from ahpcop import solve_mnvdm
 
 
 # Replace this array with your own positive reciprocal matrix.
